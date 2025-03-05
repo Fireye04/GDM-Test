@@ -1,8 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://dbecjhnxqn3o7"]
+[gd_scene load_steps=2 format=3 uid="uid://dbecjhnxqn3o7"]
 
-[ext_resource type="Script" path="res://node_2d.gd" id="1_miaos"]
-[ext_resource type="Resource" path="res://test.dialogue" id="2_qj3k5"]
+[ext_resource type="Script" uid="uid://bvmcjvxq0rkhg" path="res://main.gd" id="1_70gm0"]
 
-[node name="Node2D" type="Node2D"]
-script = ExtResource("1_miaos")
-resource = ExtResource("2_qj3k5")
+[node name="main" type="Node2D"]
+script = ExtResource("1_70gm0")
